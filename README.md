@@ -48,7 +48,7 @@ This system addresses the rising concerns related to road hazards by detecting p
 
 ![Camera Detection Output](camera-output/left-detection.png)
 
-![LiDAR Depth Output](images/lidar_output.png)
+![LiDAR Depth Output](lidar-output/robostudio-visualization.png)
 
 ---
 
@@ -68,3 +68,8 @@ This system addresses the rising concerns related to road hazards by detecting p
 The system successfully merges real-time object detection and LiDAR depth filtering to create a robust, deployable pothole detection solution. It significantly enhances on-road safety and offers potential integration into larger smart infrastructure systems for automated maintenance tracking and city planning.
 
 ---
+
+## Teammates
+- [Royston Vedamuthu](https://github.com/RoystonV)
+- [Anirudh Navalgund](https://github.com/Anirudh-Navalgund)
+- [E Sujaya](https://github.com/Sujaya-E)
