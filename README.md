@@ -12,9 +12,8 @@ This system addresses the rising concerns related to road hazards by detecting p
 
 ## System Block Diagram
 
-*Upload your block diagram image here:*
 
-![System Block Diagram](images/block_diagram.png)
+![System Block Diagram](block-diagram.jpg)
 
 ---
 
@@ -46,9 +45,8 @@ This system addresses the rising concerns related to road hazards by detecting p
 - **Camera Output:** Bounding boxes around detected potholes.
 - **LiDAR Output:** Depth profiles displayed alongside visual detections.
 
-*Upload camera and LiDAR output screenshots here:*
 
-![Camera Detection Output](images/camera_output.png)
+![Camera Detection Output](camera-output/left-detection.png)
 
 ![LiDAR Depth Output](images/lidar_output.png)
 
@@ -62,11 +60,6 @@ This system addresses the rising concerns related to road hazards by detecting p
 
 ---
 
-## Final Prototype
-
-*Upload your final working prototype image here:*
-
-![Final Prototype](images/final_prototype.png)
 
 ---
 
