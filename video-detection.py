@@ -5,7 +5,7 @@ import yaml
 import torch
 
 # Load the custom-trained YOLOv8 model
-custom_model_path = r'/content/drive/MyDrive/Pothole-codes/yolov8n_best-so-far-84.pt'  # Update this path as necessary
+custom_model_path = r'model.pt'  # Update this path as necessary
 model = YOLO(custom_model_path)
 
 # Function to detect objects in a video and save the output
@@ -67,11 +67,11 @@ def detect_video(input_video_path, output_video_path, class_names):
     print(f"Output video saved to '{output_video_path}' with {frame_count} frames.")
 
 # Step 4: Define input and output video paths
-input_video_path = r'/content/drive/MyDrive/Pothole-codes/pothole-road-video/input/pothole_video.mp4'  # Path to input video
-output_video_path = r'/content/drive/MyDrive/Pothole-codes/pothole-road-video/output/output84.mp4'  # Path to output video in MP4 format
+input_video_path = r'input.mp4'  # Path to input video
+output_video_path = r'output.mp4'  # Path to output video in MP4 format
 
 # Step 5: Load class names from data.yaml
-data_yaml_path = r'/content/drive/MyDrive/Pothole-codes/data.yaml'
+data_yaml_path = r'data.yaml'  #update yaml file path
 with open(data_yaml_path, 'r') as file:
     data_config = yaml.safe_load(file)
 class_names = data_config['names']
