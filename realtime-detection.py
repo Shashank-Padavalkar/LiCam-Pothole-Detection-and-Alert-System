@@ -5,7 +5,7 @@ import yaml
 import os
 
 # Load the custom-trained YOLOv8 model
-custom_model_path = r'C:\Users\shash\Desktop\College Files\LiCam\VS code codes\realtime\yolov8n_pothole_74.pt'
+custom_model_path = r'model.pt'
 model = YOLO(custom_model_path)
 
 # Function to detect potholes in real-time from webcam
@@ -77,7 +77,7 @@ def detect_realtime(class_names):
     cv2.destroyAllWindows()
 
 # Load class names from data.yaml
-data_yaml_path = r'c:\Users\shash\Downloads\data.yaml'
+data_yaml_path = r'data.yaml'
 with open(data_yaml_path, 'r') as file:
     data_config = yaml.safe_load(file)
 class_names = data_config['names']
