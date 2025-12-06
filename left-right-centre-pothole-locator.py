@@ -2,10 +2,10 @@ import cv2
 from ultralytics import YOLO
 
 # Load the trained YOLO model (replace 'model_path' with your actual model path)
-model = YOLO('yolov8n_best-so-far-84.pt')
+model = YOLO('model.pt')
 
 # Load image (replace 'image_path' with your actual image path)
-image = cv2.imread(r'C:\Users\shash\Desktop\pothole_dark.jpg')
+image = cv2.imread(r'pothole-image.jpg')
 height, width, _ = image.shape
 
 # Run detection on the image
